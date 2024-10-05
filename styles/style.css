@@ -5,6 +5,7 @@ body {
     background-image: url(../img/background.jpg);
     background-size: cover;
     background-attachment: fixed;
+    font-family: arial;
 }
 
 html {
@@ -22,6 +23,7 @@ h1 {
 h2,h3 {
     font-family: Cinzel Decorative;
     color: #000;
+    font-weight: bolder;
 }
 
 a {
@@ -57,6 +59,10 @@ header {
     transition: 0.3s;
 }
 
+.link-header>a:not(:hover) {
+    transition: 0.3s;
+}
+
 /* Main */
 
 .title-main-page {
@@ -79,6 +85,8 @@ header {
 .p-title {
     color: #000;
     font-size: 20px;
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
 .paragraphe {
@@ -106,4 +114,57 @@ header {
 
 .espacement {
     margin-top: 64px;
+}
+
+.description {
+    margin-left: 64px;
+}
+
+.fig-zone {
+    background: rgb(107, 115, 77, .7);
+    padding-top: 1px;
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.img-list {
+    width: 150px;
+}
+
+.child {
+    display: flex;
+    margin-left: 64px;
+    align-items: center;
+    gap: 32px;
+    
+}
+
+.second-text {
+    margin-right: 54px;
+}
+
+.zone-child-two {
+    width: 50vw;
+}
+
+.zone-child-one {
+    width: 50vw;
+}
+
+
+.buy-btn {
+    background: rgb(161, 166, 124, .6);
+    width: fit-content;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.buy-btn:hover {
+    padding: 16px;
+    transition: 0.3s;
+}
+
+.buy-btn:not(:hover) {
+    transition: 0.3s;
 }
