@@ -172,6 +172,12 @@ footer {
 }
 
 .test {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 16px;
+}
+
+.content1 {
     display: flex;
     align-items: center;
 }
@@ -184,6 +190,7 @@ footer {
 .link-footer {
     display: flex;
     flex-direction: column;
+    gap: 6px;
 }
 
 .link-footer>a {
@@ -197,10 +204,11 @@ footer {
     text-decoration: underline;
 }
 
-.copyright-text {
+.content2 {
     display: flex;
     padding-bottom: 8px;
     justify-content: center;
+    align-items: end;
     text-decoration: underline;
     color: #FFF;
 }
